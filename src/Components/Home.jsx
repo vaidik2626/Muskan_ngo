@@ -25,7 +25,7 @@ const HomePage = () => {
         {/* Left Image */}
         <div className="w-full md:w-1/2">
           <img
-            src="/images/donation.png"
+            src="/Assets/homePage/how_can_you_help.png"
             alt="Donate"
             className="w-full h-auto rounded-lg shadow-lg"
           />

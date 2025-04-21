@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-// import HomePage from "../../Components/Home";
+ import HomePage from "../Components/Home";
 // import ContactSection from "../../Components/pages/Contact";
 // import Projectspages from "../../Components/pages/Projectpages";
 // import Aboutus from "../../Components/pages/Aboutus";
@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <div>
      <Navbar />
-        {/*<HomePage />*/}
+        <HomePage />
         {/* <ContactSection /> */}
         {/* <Projectspages /> */}
         {/* <Aboutus /> */}
-        <Donatepop />
+        {/* <Donatepop /> */}
       <Footer />
     </div>
   );
