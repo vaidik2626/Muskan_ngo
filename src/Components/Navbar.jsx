@@ -11,10 +11,10 @@ export default function Navbar() {
 
   // ✅ Menu Items with Dynamic Routing
   const menuItems = [
-    { name: "Home", path: "/" },
-    { name: "About Us", path: "/about" },
-    { name: "Products", path: "/products" },
-    { name: "Contact", path: "/contact" },
+    { name: "About Us", path: "/aboutus" },
+    { name: "Our Work", path: "/Projects" },
+    { name: "Recognization", path: "/recognizaion" },
+    { name: "Contact us", path: "/Contact" }
   ];
 
   return (
@@ -47,11 +47,32 @@ export default function Navbar() {
         <div className="flex w-full justify-between px-4">
           
           {/* ✅ Logo */}
-          <div className={`flex items-center font-semibold text-xl md:w-1/5 ${open ? "hidden" : "flex"}`}>
-            <Link href="/">
-              <span className="text-gray-900 cursor-pointer">Mattismyname</span>
-            </Link>
-          </div>
+          {/* ✅ Logo Section */}
+<div className={`flex items-center font-semibold text-xl md:w-1/5 ${open ? "hidden" : "flex"}`}>
+  <Link href="/">
+    <div className="cursor-pointer">
+      {/* Desktop Logo */}
+      <Image
+        src="/Assets/Navbar/Full logo Dark.svg"
+        alt="Logo"
+        width={300}
+        height={150}
+        priority
+        className="hidden md:block"
+      />
+      {/* Mobile Logo */}
+      <Image
+        src="/Assets/Navbar/Full logo Dark (1).svg" // <- Make sure this file exists
+        alt="Mobile Logo"
+        width={50}
+        height={50}
+        priority
+        className="block md:hidden"
+      />
+    </div>
+  </Link>
+</div>
+
 
           {/* ✅ Mobile Menu */}
           {open && (
@@ -85,7 +106,7 @@ export default function Navbar() {
 
           {/* ✅ Desktop Donate Button */}
           <div className="hidden w-1/5 items-center justify-evenly font-semibold md:flex">
-            <button className="bg-yellow-500 text-white px-4 py-2 rounded">Donate Now</button>
+            <button onClick={() => router.push("/donate")} className="bg-yellow-500 text-white px-4 py-2 rounded">Donate Now</button>
           </div>
 
           {/* ✅ Mobile Menu Button */}
