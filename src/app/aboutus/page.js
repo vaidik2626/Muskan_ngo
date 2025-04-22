@@ -39,7 +39,7 @@ const Aboutus = () => {
         </p>
 
         <p className="mb-6">
-          Today, Chhoti Si Muskaan is not just an NGO; it's a movement. A movement where anyone can be a part
+          Today, Chhoti Si Muskaan is not just an NGO; it&apos;s a movement. A movement where anyone can be a part
           of the change, where ₹25 is not just money—it’s hope, food, and education for a child in need.
         </p>
 
