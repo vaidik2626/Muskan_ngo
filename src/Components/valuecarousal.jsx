@@ -8,37 +8,38 @@ const values = [
     title: "Compassion",
     description:
       "We believe in the power of kindness. Every child deserves love, care, and a chance to dream, and we strive to bring that into their lives.",
-    image: "/images/compassion.jpg",
+    image: "/Assets/Aboutus/compassion.png",
   },
   {
     title: "Community",
     description:
       "Change is not an individual effort—it’s a collective movement. By bringing people together, we create a network of support that uplifts children in need.",
-    image: "/images/community.jpg",
+    image: "/Assets/Aboutus/community.png",
   },
   {
     title: "Education for All",
     description:
       "Education is the key to breaking the cycle of poverty. We are committed to providing access to learning opportunities for a better future.",
-    image: "/images/education.jpg",
+    image: "/Assets/Aboutus/EducationForAll.png",
+  },
+  {
+    title: "Compassion",
+    description:
+      "We believe in the power of kindness. Every child deserves love, care, and a chance to dream, and we strive to bring that into their lives.",
+    image: "/Assets/Aboutus/compassion.png",
+  },
+  {
+    title: "Community",
+    description:
+      "Change is not an individual effort—it’s a collective movement. By bringing people together, we create a network of support that uplifts children in need.",
+    image: "/Assets/Aboutus/community.png",
   },
   {
     title: "Education for All",
     description:
       "Education is the key to breaking the cycle of poverty. We are committed to providing access to learning opportunities for a better future.",
-    image: "/images/education.jpg",
+    image: "/Assets/Aboutus/EducationForAll.png",
   },
-  {
-    title: "Education for All",
-    description:
-      "Education is the key to breaking the cycle of poverty. We are committed to providing access to learning opportunities for a better future.",
-    image: "/images/education.jpg",
-  },{
-    title: "Education for All",
-    description:
-      "Education is the key to breaking the cycle of poverty. We are committed to providing access to learning opportunities for a better future.",
-    image: "/images/education.jpg",
-  }
 ];
 
 export default function ValuesCarousel() {
@@ -74,7 +75,7 @@ export default function ValuesCarousel() {
                 backgroundPosition: "center",
               }}
             >
-              <div className="bg-black bg-opacity-60 p-4 rounded-lg w-full">
+              <div className=" bg-opacity-60 p-4 rounded-lg w-full">
                 <h3 className="text-lg font-bold">{value.title}</h3>
                 <p className="text-sm">{value.description}</p>
               </div>

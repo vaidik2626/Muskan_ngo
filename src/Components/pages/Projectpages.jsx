@@ -7,28 +7,28 @@ export default function Projectspages() {
       title: "Educating Street Kids",
       description:
         "We believe education is the key to breaking the cycle of poverty. Our program helps street children get access to schools, essential learning materials, and mentorship. We also conduct evening classes and skill-based workshops to enhance their future opportunities.",
-      image: "/images/education.jpg",
+      image: "/Assets/Our Work/meal.png",
     },
     {
       title: "Meal Distribution",
       description:
         "Many children struggle with hunger daily. Our meal distribution program ensures that underprivileged kids receive nutritious meals regularly. We partner with local volunteers and food donors to provide breakfast and lunch drives in underserved areas.",
-      image: "/images/meal.jpg",
+      image: "/Assets/Our Work/education.png",
     },
     {
       title: "Supporting Specially-Abled Students",
       description:
         "Every child deserves a chance to thrive, regardless of their physical abilities. We provide assistive devices, therapy support, and personalized educational aid to specially-abled children.",
-      image: "/images/disability.jpg",
+      image: "/Assets/Our Work/special.png",
     },
   ];
 
   return (
-    <div>
+    <div className="bg-gray-300">
       {/* Banner Section */}
-      <div className="relative h-64 w-full">
+      <div className="relative h-124 w-full">
         <Image
-          src="/images/banner.jpg"
+          src="/Assets/Our Work/ourProject.png"
           alt="Our Projects"
           layout="fill"
           objectFit="cover"
@@ -40,7 +40,7 @@ export default function Projectspages() {
       </div>
 
       {/* Projects List */}
-      <div className="max-w-6xl mx-auto px-4 py-10 grid gap-10">
+      <div className="max-w-6xl mx-auto px-4 py-10 grid gap-10 bg-gray-300">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
