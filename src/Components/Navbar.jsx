@@ -49,7 +49,7 @@ export default function Navbar() {
   <Link href="/">
     <div className="cursor-pointer">
       {/* Mobile Logo */}
-      <Image
+      <img
         src="/Assets/Navbar/Full logo Dark.svg" // <- Make sure this file exists
         width={250}
         height={150}
