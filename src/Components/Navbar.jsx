@@ -48,23 +48,13 @@ export default function Navbar() {
 <div className={`flex items-center font-semibold text-xl md:w-1/5 ${open ? "hidden" : "flex"}`}>
   <Link href="/">
     <div className="cursor-pointer">
-      {/* Desktop Logo */}
-      <Image
-        src="/Assets/Navbar/Full logo Dark.svg"
-        alt="Logo"
-        width={300}
-        height={150}
-        priority
-        className="hidden md:block"
-      />
       {/* Mobile Logo */}
       <Image
-        src="/Assets/Navbar/Full logo Dark (1).svg" // <- Make sure this file exists
+        src="/Assets/Navbar/Full logo Dark.svg" // <- Make sure this file exists
         alt="Mobile Logo"
-        width={50}
-        height={50}
+        width={250}
+        height={150}
         priority
-        className="block md:hidden"
       />
     </div>
   </Link>
