@@ -51,7 +51,6 @@ export default function Navbar() {
       {/* Mobile Logo */}
       <Image
         src="/Assets/Navbar/Full logo Dark.svg" // <- Make sure this file exists
-        alt="Mobile Logo"
         width={250}
         height={150}
         priority
