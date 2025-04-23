@@ -45,9 +45,6 @@ export default function Navbar() {
       {/* ✅ Main Navbar */}
       <nav className="flex h-auto w-auto justify-between items-center bg-white shadow-lg py-3 md:h-16">
         <div className="flex w-full justify-between px-4">
-          
-          {/* ✅ Logo */}
-          {/* ✅ Logo Section */}
 <div className={`flex items-center font-semibold text-xl md:w-1/5 ${open ? "hidden" : "flex"}`}>
   <Link href="/">
     <div className="cursor-pointer">

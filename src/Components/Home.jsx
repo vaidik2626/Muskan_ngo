@@ -3,11 +3,23 @@ import Herosection from './Herosection'
 import Believe from './pages/Believe'
 import Gallery from './pages/Gallery'
 const HomePage = () => {
-    const stats = [
-        { id: 1, name: 'Transactions every 24 hours', value: '44 million' },
-        { id: 2, name: 'Assets under holding', value: '$119 trillion' },
-        { id: 3, name: 'New users annually', value: '46,000' },
-      ]
+  const stats = [
+    {
+      count: "200+",
+      title: "Street Children",
+      description: "Received books for education",
+    },
+    {
+      count: "20+",
+      title: "Handicapped Students",
+      description: "Received essential supplies",
+    },
+    {
+      count: "150+",
+      title: "Street Children",
+      description: "Provided with nutritious meals",
+    },
+  ];
   
     return (
     <div>
@@ -15,9 +27,7 @@ const HomePage = () => {
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
-              <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
-                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Chhoti Si Muskaan is a non-profit organization dedicated to transforming the lives of street children and children with disabilities. Our mission is to provide education, nutritious food, medical support, and essential care to those in need. We believe that every child deserves a safe and nurturing environment where they can learn, grow, and thrive.</p>
             </div>
           </div>
         </section>
@@ -55,20 +65,21 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-    <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
-          {stats.map((stat) => (
-            <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <dt className="text-base/7 text-gray-600">{stat.name}</dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                {stat.value}
-              </dd>
-            </div>
-          ))}
-        </dl>
+      <section className="bg-gray-700 text-white py-12 px-4 my-3 font-bayon">
+      <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 font-bayon">
+        Together, We Are Making a Difference!
+      </h2>
+
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        {stats.map((stat, index) => (
+          <div key={index}>
+            <p className="text-5xl font-bold text-lime-400">{stat.count}</p>
+            <p className="text-cyan-400 text-xl font-semibold uppercase mt-2">{stat.title}</p>
+            <p className="text-white font-medium mt-1">{stat.description}</p>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
     <Believe />
     <Gallery />
     </div>
