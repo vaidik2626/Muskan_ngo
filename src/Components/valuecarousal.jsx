@@ -44,7 +44,7 @@ const values = [
 
 export default function ValuesCarousel() {
   return (
-    <div className="bg-[#3E7373] py-10">
+    <div className="bg-[#3E7373] py-10" style={{ fontFamily: "BalooBhai2" }}>
       {/* Section Title */}
       <div className="text-center text-white mb-6">
         <h2 className="text-3xl font-bold">Our Values</h2>

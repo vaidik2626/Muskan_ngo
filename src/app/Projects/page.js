@@ -24,7 +24,7 @@ export default function Projectspages() {
   ];
 
   return (
-    <div className="bg-gray-300">
+    <div className="bg-gray-300" style={{ fontFamily: "BalooBhai2" }}>
       {/* Banner Section */}
       <div className="relative h-124 w-full">
         <Image

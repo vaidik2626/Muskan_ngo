@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function DonateSection() {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full" style={{ fontFamily: 'BalooBhai2' }}>
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image

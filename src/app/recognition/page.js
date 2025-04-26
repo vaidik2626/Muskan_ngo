@@ -6,7 +6,7 @@ export default function CertificatesSection() {
     ];
   
     return (
-      <section className="bg-[#fdf5ec] py-12 px-4 md:px-10 lg:px-24 text-center text-gray-800">
+      <section className="bg-[#fdf5ec] py-12 px-4 md:px-10 lg:px-24 text-center text-gray-800" style={{ fontFamily: 'BalooBhai2' }}>
         {/* Official Documents */}
         <div className="mb-10">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 border-b-4 border-yellow-600 inline-block">

@@ -5,7 +5,7 @@ import Image from "next/image";
 const Aboutus = () => {
   return (
     <div>
-      <section className="bg-[#f4f2ed] py-12 px-4 md:px-12 lg:px-24 text-gray-800">
+      <section className="bg-[#f4f2ed] py-12 px-4 md:px-12 lg:px-24 text-gray-800" style={{ fontFamily: 'BalooBhai2' }}>
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-2">Our Story</h2>
         <p className="text-center text-lg mb-8 text-gray-600">Spreading Smiles, One Small Step at a Time</p>
@@ -92,7 +92,7 @@ const Aboutus = () => {
         </div>
 
         {/* Content */}
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8" style={{ fontFamily: 'Bayon' }}>
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
               Our Mission

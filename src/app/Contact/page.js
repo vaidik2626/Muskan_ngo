@@ -5,7 +5,7 @@ import { MdConnectWithoutContact } from "react-icons/md";
 export default function ContactSection() {
     return (
       <div>
-      <section className="text-gray-600 body-font relative">
+      <section className="text-gray-600 body-font relative" style={{ fontFamily: 'BalooBhai2' }}>
       <div className="absolute inset-0 bg-gray-300">
   <iframe
     width="100%"
@@ -39,7 +39,7 @@ export default function ContactSection() {
     </div>
   </div>
 </section>
-      <section className="bg-[#FDF8EC] py-10 px-4">
+      <section className="bg-[#FDF8EC] py-10 px-4" style={{ fontFamily: 'BalooBhai2' }}>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           
           {/* Corporate Partner */}

@@ -15,7 +15,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white shadow-md">
+    <header className="sticky top-0 z-50 w-full bg-white shadow-md" style={{ fontFamily: 'BalooBhai2' }}>
       
       {/* Top Bar */}
       <div className="bg-black text-white text-sm py-2 px-4 flex justify-between items-center">
