@@ -1,5 +1,6 @@
 import React from "react";
 import ValuesCarousel from "../../Components/valuecarousal";
+import Image from "next/image";
 
 const Aboutus = () => {
   return (
@@ -49,20 +50,17 @@ const Aboutus = () => {
           bed hungry or misses an education.
         </p>
 
-        <a
-          href="#"
-          className="text-indigo-600 hover:underline font-medium block mt-4"
-        >
-          Join Our Movement – Click Here to Make a Difference!
-        </a>
+        
       </div>
     </section>
       <ValuesCarousel />
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-        <img
-          src="/Assets/Aboutus/OurMission.png"
+        <Image
+          src="/assets/aboutus/ourmission.png"
           alt=""
+          fill
           className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"
+          priority
         />
 
         {/* Background Shape 1 */}
