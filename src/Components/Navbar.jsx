@@ -42,30 +42,32 @@ export default function Navbar() {
       </div>
 
       {/* Main Navbar */}
-      <nav className="flex items-center justify-between px-4 py-3 bg-white shadow-lg relative">
+      <nav className="flex items-center justify-between px-4 py-3 bg-white relative">
         
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/">
-            <Image
-              src="/assets/navbar/full-logo-dark.svg" // make sure the path and casing are correct
-              alt="Logo"
-              width={150}
-              height={60}
-              priority
-            />
+            <div className="relative w-36 h-10 md:w-48 md:h-14">
+              <Image
+                src="/assets/navbar/full-logo-dark.svg"
+                alt="Logo"
+                fill
+                style={{ objectFit: "contain" }}
+                priority
+              />
+            </div>
           </Link>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 font-semibold">
           {menuItems.map((item) => (
-            <Link key={item.path} href={item.path} className="hover:text-yellow-600">
+            <Link key={item.path} href={item.path} className="hover:text-yellow-600 transition-colors duration-300">
               {item.name}
             </Link>
           ))}
           <Link href="/donate">
-            <button className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">
+            <button className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 transition-all duration-300">
               Donate Now
             </button>
           </Link>
@@ -85,20 +87,20 @@ export default function Navbar() {
         </button>
 
         {/* Mobile Menu */}
-        {open && (
-          <div className="absolute top-20 left-0 right-0 bg-white flex flex-col items-center gap-6 py-6 shadow-lg md:hidden z-50">
-            {menuItems.map((item) => (
-              <Link key={item.path} href={item.path} onClick={() => setOpen(false)} className="text-gray-900 hover:text-yellow-600">
-                {item.name}
-              </Link>
-            ))}
+        <div className={`absolute top-full left-0 right-0 overflow-hidden transition-all duration-500 ease-in-out bg-white flex flex-col items-center gap-6 py-6 shadow-lg md:hidden ${open ? "max-h-[500px]" : "max-h-0 py-0"}`}>
+          {open && menuItems.map((item) => (
+            <Link key={item.path} href={item.path} onClick={() => setOpen(false)} className="text-gray-900 hover:text-yellow-600 transition-colors duration-300">
+              {item.name}
+            </Link>
+          ))}
+          {open && (
             <Link href="/donate" onClick={() => setOpen(false)}>
-              <button className="bg-yellow-500 text-white px-4 py-2 rounded w-3/4">
+              <button className="bg-yellow-500 text-white px-4 py-2 rounded w-3/4 hover:bg-yellow-600 transition-all duration-300">
                 Donate Now
               </button>
             </Link>
-          </div>
-        )}
+          )}
+        </div>
 
       </nav>
     </header>
