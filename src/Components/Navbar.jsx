@@ -97,7 +97,7 @@ export default function Navbar() {
         </button>
 
         {/* Mobile Menu */}
-        <div className={`absolute top-full left-0 right-0 overflow-hidden transition-all duration-500 ease-in-out bg-white flex flex-col items-center gap-6 py-6 shadow-lg md:hidden ${open ? "max-h-[500px]" : "max-h-0 py-0"}`}>
+        <div className={`absolute top-full left-0 right-0 overflow-hidden transition-all duration-500 ease-in-out bg-white flex flex-col items-center gap-6 py-2 shadow-lg md:hidden ${open ? "max-h-[500px]" : "max-h-0 py-0"}`}>
           {open && menuItems.map((item) => (
             <Link 
               key={item.path} 
@@ -112,7 +112,7 @@ export default function Navbar() {
           ))}
           {open && (
             <Link href="/donate" onClick={() => setOpen(false)}>
-              <button className="bg-yellow-500 text-white px-4 py-2 rounded w-3/4 hover:bg-yellow-600 transition-all duration-300">
+              <button className="bg-yellow-500 text-white px-4 py-2 rounded w-2xl hover:bg-yellow-600 transition-all duration-300">
                 Donate Now
               </button>
             </Link>
