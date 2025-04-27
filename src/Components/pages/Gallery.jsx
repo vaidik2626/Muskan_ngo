@@ -11,35 +11,35 @@ export default function Gallery() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {/* Large Image */}
             <div className="col-span-2 row-span-2">
-              <img src="/assets/homepage/gallery-images/image_1.png" alt="Happy kids" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_1.png" alt="Happy kids" className="w-full h-full object-cover rounded-lg" />
             </div>
   
             {/* Smaller Images */}
             <div>
-              <img src="/assets/homepage/gallery-images/image_2.png" alt="Kid pointing" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_2.png" alt="Kid pointing" className="w-full h-full object-cover rounded-lg" />
             </div>
             <div>
-              <img src="/assets/homepage/gallery-images/image_3.png" alt="Smiling child" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_3.png" alt="Smiling child" className="w-full h-full object-cover rounded-lg" />
             </div>
   
             {/* Multiple Images Row */}
             <div className="col-span-2 grid grid-cols-3 gap-2">
-              <img src="/assets/homepage/gallery-images/image_4.png" alt="Kids" className="w-full h-full object-cover rounded-lg" />
-              <img src="/assets/homepage/gallery-images/image_5.png" alt="Kids" className="w-full h-full object-cover rounded-lg" />
-              <img src="/assets/homepage/gallery-images/image_6.png" alt="Kids" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_4.png" alt="Kids" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_5.png" alt="Kids" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_6.png" alt="Kids" className="w-full h-full object-cover rounded-lg" />
             </div>
   
             <div>
-              <img src="/assets/homepage/gallery-images/image_7.png" alt="Group of kids" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_7.png" alt="Group of kids" className="w-full h-full object-cover rounded-lg" />
             </div>
             <div>
-              <img src="/assets/homepage/gallery-images/image_8.png" alt="Two girls smiling" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_8.png" alt="Two girls smiling" className="w-full h-full object-cover rounded-lg" />
             </div>
             <div>
-              <img src="/assets/homepage/gallery-images/image_9.png" alt="Two girls smiling" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_9.png" alt="Two girls smiling" className="w-full h-full object-cover rounded-lg" />
             </div>
             <div>
-              <img src="/assets/homepage/gallery-images/image_7.png" alt="Two girls smiling" className="w-full h-full object-cover rounded-lg" />
+              <img src="/Assets/homePage/gallery-images/image_7.png" alt="Two girls smiling" className="w-full h-full object-cover rounded-lg" />
             </div>
           </div>
         </div>
