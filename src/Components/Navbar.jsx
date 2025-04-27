@@ -49,7 +49,7 @@ export default function Navbar() {
           <Link href="/">
             <div className="relative w-36 h-10 md:w-48 md:h-14">
               <Image
-                src="/assets/navbar/full-logo-dark.svg"
+                src="/Assets/navbar/full-logo-dark.svg"
                 alt="Logo"
                 fill
                 style={{ objectFit: "contain" }}
