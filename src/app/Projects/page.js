@@ -7,19 +7,19 @@ export default function Projectspages() {
       title: "Educating Street Kids",
       description:
         "We believe education is the key to breaking the cycle of poverty. Our program helps street children get access to schools, essential learning materials, and mentorship. We also conduct evening classes and skill-based workshops to enhance their future opportunities.",
-      image: "/Assets/Our Work/meal.png",
+      image: "/Assets/ourwork/meal.png",
     },
     {
       title: "Meal Distribution",
       description:
         "Many children struggle with hunger daily. Our meal distribution program ensures that underprivileged kids receive nutritious meals regularly. We partner with local volunteers and food donors to provide breakfast and lunch drives in underserved areas.",
-      image: "/Assets/Our Work/education.png",
+      image: "/Assets/ourwork/education.png",
     },
     {
       title: "Supporting Specially-Abled Students",
       description:
         "Every child deserves a chance to thrive, regardless of their physical abilities. We provide assistive devices, therapy support, and personalized educational aid to specially-abled children.",
-      image: "/Assets/Our Work/special.png",
+      image: "/Assets/ourwork/special.png",
     },
   ];
 
