@@ -28,7 +28,7 @@ const HomePage = () => {
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full">
-                  <p class="lg:w-2/3 mx-auto leading-relaxed text-2xl">Chhoti Si Muskaan is a non-profit organization dedicated to transforming the lives of street children and children with disabilities. Our mission is to provide education, nutritious food, medical support, and essential care to those in need. We believe that every child deserves a safe and nurturing environment where they can learn, grow, and thrive.</p>
+                  <p class="lg:w-2/3 mx-auto leading-relaxed text-xl">Chhoti Si Muskaan is a non-profit organization dedicated to transforming the lives of street children and children with disabilities. Our mission is to provide education, nutritious food, medical support, and essential care to those in need. We believe that every child deserves a safe and nurturing environment where they can learn, grow, and thrive.</p>
             </div>
           </div>
         </section>
