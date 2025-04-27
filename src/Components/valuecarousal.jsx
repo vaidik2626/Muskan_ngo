@@ -8,37 +8,37 @@ const values = [
     title: "Compassion",
     description:
       "We believe in the power of kindness. Every child deserves love, care, and a chance to dream, and we strive to bring that into their lives.",
-    image: "/assets/aboutus/compassion.png",
+    image: "/Assets/Aboutus/compassion.png",
   },
   {
     title: "Community",
     description:
       "Change is not an individual effort—it’s a collective movement. By bringing people together, we create a network of support that uplifts children in need.",
-    image: "/assets/aboutus/community.png",
+    image: "/Assets/Aboutus/community.png",
   },
   {
     title: "Education for All",
     description:
       "Education is the key to breaking the cycle of poverty. We are committed to providing access to learning opportunities for a better future.",
-    image: "/assets/aboutus/educationforall.png",
+    image: "/Assets/Aboutus/educationforall.png",
   },
   {
     title: "Compassion",
     description:
       "We believe in the power of kindness. Every child deserves love, care, and a chance to dream, and we strive to bring that into their lives.",
-    image: "/assets/aboutus/compassion.png",
+    image: "/Assets/Aboutus/compassion.png",
   },
   {
     title: "Community",
     description:
       "Change is not an individual effort—it’s a collective movement. By bringing people together, we create a network of support that uplifts children in need.",
-    image: "/assets/aboutus/community.png",
+    image: "/Assets/Aboutus/community.png",
   },
   {
     title: "Education for All",
     description:
       "Education is the key to breaking the cycle of poverty. We are committed to providing access to learning opportunities for a better future.",
-    image: "/assets/aboutus/educationforall.png",
+    image: "/Assets/Aboutus/educationforall.png",
   },
 ];
 
