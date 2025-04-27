@@ -46,7 +46,7 @@ const HomePage = () => {
         <div className="w-full md:w-1/2 text-center md:text-left ml-5">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">How can you help us?</h2>
           <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-            Starting from just <span className="font-semibold">₹20 a month</span> - the cost of two wafer packets
+            Starting from just <span className="font-semibold">₹20, ₹25, ₹50, ₹100 a month</span> - the cost of two wafer packets
             or a cup of tea - you can help{" "}
             <span className="font-bold">
               provide food, education, and care for street children
@@ -61,7 +61,7 @@ const HomePage = () => {
             <p
               className="inline-block bg-blue-500 hover:bg-blue-600 text-white text-sm md:text-base font-medium px-6 py-3 rounded-full shadow-md transition"
             >
-              Donate to 20₹ movement now →
+              Donate to ₹20, ₹25, ₹50, ₹100 movement now →
             </p>
             </Link>
           </div>
