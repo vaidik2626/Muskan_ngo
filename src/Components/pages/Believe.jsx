@@ -7,31 +7,31 @@ export default function Believe() {
       title: "LET NO CHILD LEFT BEHIND",
       description:
         "We provide free education, learning materials, and mentorship to underprivileged children, helping them build a brighter future.",
-      image: "/assets/homepage/what-we-believe/education.png",
+      image: "/Assets/homePage/what-we-believe/education.png",
     },
     {
       title: "EVERY CHILD DESERVES A FULL PLATE",
       description:
         "Ensuring that no child sleeps hungry, we provide nutritious meals to children in need, supporting their health and growth.",
-      image: "/assets/homepage/what-we-believe/clothes.png",
+      image: "/Assets/homePage/what-we-believe/clothes.png",
     },
     {
       title: "ABILITY OVER DISABILITY",
       description:
         "We assist children with disabilities by providing special care, mobility aids, and educational resources to help them thrive.",
-      image: "/assets/homepage/what-we-believe/vitamins.png",
+      image: "/Assets/homePage/what-we-believe/vitamins.png",
     },
     {
       title: "DIGNITY IN EVERY THREAD",
       description:
         "We collect and distribute clothes, shoes, and daily essentials to children, ensuring they live with dignity and comfort.",
-      image: "/assets/homepage/what-we-believe/disability.png",
+      image: "/Assets/homePage/what-we-believe/disability.png",
     },
     {
       title: "EMPOWER TODAY, TRANSFORM TOMORROW",
       description:
         "Through workshops and training, we equip children with skills that empower them to become self-sufficient and independent.",
-      image: "/assets/homepage/what-we-believe/books.png",
+      image: "/Assets/homePage/what-we-believe/books.png",
     },
   ];
 
