@@ -20,7 +20,7 @@ const values = [
     title: "Education for All",
     description:
       "Education is the key to breaking the cycle of poverty. We are committed to providing access to learning opportunities for a better future.",
-    image: "/Assets/Aboutus/educationforall.png",
+    image: "/Assets/Aboutus/EducationForAll.png",
   },
   {
     title: "Compassion",
@@ -38,7 +38,7 @@ const values = [
     title: "Education for All",
     description:
       "Education is the key to breaking the cycle of poverty. We are committed to providing access to learning opportunities for a better future.",
-    image: "/Assets/Aboutus/educationforall.png",
+    image: "/Assets/Aboutus/EducationForAll.png",
   },
 ];
 
