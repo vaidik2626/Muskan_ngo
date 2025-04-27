@@ -13,11 +13,11 @@ const slides = [
     alt: "Slide 1",
   },
   {
-    src: "/Assets/homePage/how_can_you_help.png",
+    src: "/Assets/homePage/hero-desktop.png",
     alt: "Slide 2",
   },
   {
-    src: "/Assets/homePage/here_mobile.png",
+    src: "/Assets/homePage/hero-desktop.png",
     alt: "Slide 3",
   },
 ];
