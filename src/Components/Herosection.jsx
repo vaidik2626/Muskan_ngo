@@ -49,7 +49,7 @@ export default function HeroSection() {
               />
 
               {/* Overlay Content */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 bg-black bg-opacity-50" style={{ fontFamily: 'BalooBhai2' }}>
+              <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 bg-opacity-50" style={{ fontFamily: 'BalooBhai2' }}>
                 <h2 className="text-white text-2xl md:text-4xl font-bold">
                   Partner with Us, Change Lives!
                 </h2>
