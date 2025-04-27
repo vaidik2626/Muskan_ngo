@@ -1,11 +1,13 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation"; // <-- Import this
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaEnvelope, FaPhone } from "react-icons/fa";
 import { useState } from "react";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname(); // <-- Current active route
 
   const menuItems = [
     { name: "About Us", path: "/aboutus" },
@@ -49,7 +51,7 @@ export default function Navbar() {
           <Link href="/">
             <div className="relative w-36 h-10 md:w-48 md:h-14">
               <Image
-                src="/assets/navbar/full-logo-dark.svg"
+                src="/Assets/navbar/full-logo-dark.svg"
                 alt="Logo"
                 fill
                 style={{ objectFit: "contain" }}
@@ -62,7 +64,15 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8 font-semibold">
           {menuItems.map((item) => (
-            <Link key={item.path} href={item.path} className="hover:text-yellow-600 transition-colors duration-300">
+            <Link 
+              key={item.path} 
+              href={item.path} 
+              className={`pb-1 transition-all duration-300 ${
+                pathname === item.path 
+                  ? "border-b-4 border-yellow-500 text-yellow-600" 
+                  : "hover:border-b-4 hover:border-yellow-300"
+              }`}
+            >
               {item.name}
             </Link>
           ))}
@@ -89,7 +99,14 @@ export default function Navbar() {
         {/* Mobile Menu */}
         <div className={`absolute top-full left-0 right-0 overflow-hidden transition-all duration-500 ease-in-out bg-white flex flex-col items-center gap-6 py-6 shadow-lg md:hidden ${open ? "max-h-[500px]" : "max-h-0 py-0"}`}>
           {open && menuItems.map((item) => (
-            <Link key={item.path} href={item.path} onClick={() => setOpen(false)} className="text-gray-900 hover:text-yellow-600 transition-colors duration-300">
+            <Link 
+              key={item.path} 
+              href={item.path} 
+              onClick={() => setOpen(false)}
+              className={`text-gray-900 hover:text-yellow-600 transition-colors duration-300 ${
+                pathname === item.path ? "border-b-4 border-yellow-500 pb-1" : ""
+              }`}
+            >
               {item.name}
             </Link>
           ))}
