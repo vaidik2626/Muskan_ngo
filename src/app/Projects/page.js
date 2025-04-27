@@ -28,7 +28,7 @@ export default function Projectspages() {
       {/* Banner Section */}
       <div className="relative h-124 w-full">
         <Image
-          src="/Assets/Our Work/ourProject.png"
+          src="/Assets/ourwork/ourproject.png"
           alt="Our Projects"
           layout="fill"
           objectFit="cover"
