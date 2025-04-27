@@ -44,7 +44,7 @@ export default function Navbar() {
       </div>
 
       {/* Main Navbar */}
-      <nav className="flex items-center justify-between px-4 py-3 bg-white relative">
+      <nav className="flex items-center justify-between px-4 py-1 bg-white relative">
         
         {/* Logo */}
         <div className="flex items-center">
