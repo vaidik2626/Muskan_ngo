@@ -9,15 +9,15 @@ import "swiper/css/pagination";
 
 const slides = [
   {
-    src: "/Assets/homePage/Hero_desktop.png",
+    src: "/assets/homepage/hero-desktop.png",
     alt: "Slide 1",
   },
   {
-    src: "/Assets/homePage/how_can_you_help.png",
+    src: "/assets/homepage/how_can_you_help.png",
     alt: "Slide 2",
   },
   {
-    src: "/Assets/homePage/here_mobile.png",
+    src: "/assets/homepage/here_mobile.png",
     alt: "Slide 3",
   },
 ];
