@@ -83,13 +83,12 @@ export default function ContactSection() {
             <h3 className="text-lg font-semibold mt-4">SOCIAL MEDIA</h3>
             <div className="grid grid-cols-2 gap-4 mt-4">
         {socialLinks.map((social, index) => (
-          <Card key={index} className="flex items-center justify-center p-4 hover:bg-neutral-100 transition rounded-xl shadow-md">
-            <CardContent className="text-center">
-              <a href={social.link} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-blue-600">
-                <span className="mt-2 font-semibold">{social.name}</span>
-              </a>
-            </CardContent>
-          </Card>
+          <div key={index} className="border p-4 hover:bg-neutral-100 transition rounded-xl shadow-md text-center">
+            <p className="font-medium">{social.name}</p>
+            <a href={social.link} target="_blank" rel="noopener noreferrer" className="text-blue-600">
+              {social.link}
+            </a>
+          </div>
         ))}
       </div>
           </div>
