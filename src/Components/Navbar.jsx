@@ -30,14 +30,14 @@ export default function Navbar() {
           </div>
           <div className="flex items-center gap-2">
             <FaPhone />
-            <span className="hidden sm:block pr-2">+91 98989 98989</span>
+            <span className="hidden sm:block pr-2">+91 98786 92847</span>
           </div>
         </div>
 
         {/* Social Icons */}
         <div className="flex gap-4 text-lg">
           <Link href="#"><FaFacebookF /></Link>
-          <Link href="#"><FaInstagram /></Link>
+          <Link href="https://www.instagram.com/chhotisimuskaan_foundation/"><FaInstagram /></Link>
           <Link href="#"><FaLinkedinIn /></Link>
         </div>
 
