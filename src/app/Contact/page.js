@@ -3,6 +3,15 @@ import { FaBuilding } from "react-icons/fa";
 import { IoIosContacts } from "react-icons/io";
 import { MdConnectWithoutContact } from "react-icons/md";
 export default function ContactSection() {
+    
+    const socialLinks = [
+    { name: "Instagram", link: "https://www.instagram.com/chhotisimuskaan_foundation/" },
+    { name: "Facebook", link: "https://facebook.com/FACEBOOK_ACCOUNT" },
+    { name: "X", link: "https://twitter.com/X_Account" },
+    { name: "YouTube", link: "https://youtube.com/YT_Account" }
+  ];
+
+    
     return (
       <div>
       <section className="text-gray-600 body-font relative" style={{ fontFamily: 'BalooBhai2' }}>
@@ -72,14 +81,17 @@ export default function ContactSection() {
             <MdConnectWithoutContact className="w-9 h-9" />
             </div>
             <h3 className="text-lg font-semibold mt-4">SOCIAL MEDIA</h3>
-            <p className="mt-2 font-medium">INSTAGRAM</p>
-            <p className="text-blue-600">Chhotisimuskaan</p>
-            <p className="mt-2 font-medium">FACEBOOK</p>
-            <p className="text-blue-600">FACEBOOK ACCOUNT</p>
-            <p className="mt-2 font-medium">X</p>
-            <p className="text-blue-600">X Account</p>
-            <p className="mt-2 font-medium">YOUTUBE</p>
-            <p className="text-blue-600">YT Account</p>
+            <div className="grid grid-cols-2 gap-4 mt-4">
+        {socialLinks.map((social, index) => (
+          <Card key={index} className="flex items-center justify-center p-4 hover:bg-neutral-100 transition rounded-xl shadow-md">
+            <CardContent className="text-center">
+              <a href={social.link} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-blue-600">
+                <span className="mt-2 font-semibold">{social.name}</span>
+              </a>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
           </div>
         </div>
 
