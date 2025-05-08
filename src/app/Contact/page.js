@@ -44,8 +44,8 @@ export default function ContactSection() {
           
           {/* Corporate Partner */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center">
-            <FaBuilding  className='h-8 w-8'/>
+            <div className="w-18 h-18 bg-blue-500 rounded-full flex items-center justify-center">
+            <FaBuilding  className='h-9 w-9'/>
             </div>
             <h3 className="text-lg font-semibold mt-4">Want to be corporate partner?</h3>
             <p className="mt-2">Email us on</p>
@@ -56,20 +56,20 @@ export default function ContactSection() {
   
           {/* Contact Us */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center">
-            <IoIosContacts className="w-8 h-8" />
+            <div className="w-18 h-18 bg-blue-500 rounded-full flex items-center justify-center">
+            <IoIosContacts className="w-9 h-9" />
             </div>
             <h3 className="text-lg font-semibold mt-4">CONTACT US</h3>
             <p className="mt-2">CALL ON</p>
-            <p className="font-medium">+91 03958 39485</p>
+            <p className="font-medium">+91 98786 92847</p>
             <p className="mt-2">EMAIL ON</p>
-            <p className="text-blue-600 font-medium">CHHOTI SI MUSKAAN@GMAIL.COM</p>
+            <p className="text-blue-600 font-medium">CHOTISIMUSKAAN@GMAIL.COM</p>
           </div>
   
           {/* Social Media */}
           <div className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center">
-            <MdConnectWithoutContact className="w-8 h-8" />
+            <div className="w-18 h-18 bg-blue-500 rounded-full flex items-center justify-center">
+            <MdConnectWithoutContact className="w-9 h-9" />
             </div>
             <h3 className="text-lg font-semibold mt-4">SOCIAL MEDIA</h3>
             <p className="mt-2 font-medium">INSTAGRAM</p>
