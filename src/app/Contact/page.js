@@ -5,10 +5,10 @@ import { MdConnectWithoutContact } from "react-icons/md";
 export default function ContactSection() {
     
     const socialLinks = [
-    { name: "Instagram", link: "https://www.instagram.com/chhotisimuskaan_foundation/" },
-    { name: "Facebook", link: "https://facebook.com/FACEBOOK_ACCOUNT" },
-    { name: "X", link: "https://twitter.com/X_Account" },
-    { name: "YouTube", link: "https://youtube.com/YT_Account" }
+    { name: "Instagram", link: "https://www.instagram.com/chhotisimuskaan_foundation/", linktext: "Spread joy" },
+    { name: "Facebook", link: "https://facebook.com/FACEBOOK_ACCOUNT", linktext: "Support change" },
+    { name: "X", link: "https://twitter.com/X_Account", linktext: "Amplify voices"},
+    { name: "YouTube", link: "https://youtube.com/YT_Account" , linktext: "See impact"}
   ];
 
     
@@ -83,10 +83,10 @@ export default function ContactSection() {
             <h3 className="text-lg font-semibold mt-4">SOCIAL MEDIA</h3>
             <div className="grid grid-cols-2 gap-4 mt-4">
         {socialLinks.map((social, index) => (
-          <div key={index} className="transition rounded-xl shadow-md text-center">
+          <div key={index} className="transition rounded-xl text-center">
             <p className="font-medium">{social.name}</p>
             <a href={social.link} target="_blank" rel="noopener noreferrer" className="text-blue-600">
-              ChotiSiMuskan
+              {social.linktext}
             </a>
           </div>
         ))}
