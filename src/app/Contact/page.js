@@ -102,30 +102,29 @@ export default function ContactCorporateSection() {
             className="brightness-50"
           />
         </div>
-        <div className="relative z-10 px-4 py-16 md:px-16 lg:px-32 bg-black bg-opacity-50">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-            Become a Corporate Partner
-          </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Why Partner With Us?</h3>
-              <ul className="space-y-2 list-disc list-inside">
-                <li>Strengthen your CSR (Corporate Social Responsibility) initiatives</li>
-                <li>Support education, health, and empowerment projects</li>
-                <li>Build goodwill and brand reputation through social impact</li>
-                <li>Engage your employees through volunteering and donation drives</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4">How You Can Help:</h3>
-              <ul className="space-y-2 list-disc list-inside">
-                <li>Financial sponsorships for our ongoing projects</li>
-                <li>Donating goods, services, or infrastructure</li>
-                <li>Co-hosting awareness campaigns or fundraising events</li>
-                <li>Employee engagement programs and volunteering opportunities</li>
-              </ul>
-            </div>
-          </div>
+        <div class="max-w-4xl mx-auto px-4 py-10">
+    <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Become a Corporate Partner</h2>
+
+    <div class="mb-8">
+      <h3 class="text-xl font-semibold mb-4">Why Partner With Us?</h3>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li>Strengthen your CSR (Corporate Social Responsibility) initiatives</li>
+        <li>Support education, health, and empowerment projects</li>
+        <li>Build goodwill and brand reputation through social impact</li>
+        <li>Engage your employees through volunteering and donation drives</li>
+      </ul>
+    </div>
+
+    <div class="mb-12">
+      <h3 class="text-xl font-semibold mb-4">How You Can Help:</h3>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li>Financial sponsorships for our ongoing projects</li>
+        <li>Donating goods, services, or infrastructure</li>
+        <li>Co-hosting awareness campaigns or fundraising events</li>
+        <li>Employee engagement programs and volunteering opportunities</li>
+      </ul>
+    </div>
+  </div>
         </div>
       </div>
 
