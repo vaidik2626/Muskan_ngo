@@ -95,6 +95,50 @@ export default function ContactSection() {
         </div>
 
       </section>
+          <div className="relative w-full text-white">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src={bgImage}
+          alt="Corporate Team"
+          layout="fill"
+          objectFit="cover"
+          className="brightness-50"
+        />
+      </div>
+
+      {/* Content Overlay */}
+      <div className="relative z-10 px-4 py-16 md:px-16 lg:px-32 bg-black bg-opacity-50">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
+          Become a Corporate Partner
+        </h2>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Why Partner Section */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4">Why Partner With Us?</h3>
+            <ul className="space-y-2 list-disc list-inside">
+              <li>Strengthen your CSR (Corporate Social Responsibility) initiatives</li>
+              <li>Support education, health, and empowerment projects</li>
+              <li>Build goodwill and brand reputation through social impact</li>
+              <li>Engage your employees through volunteering and donation drives</li>
+            </ul>
+          </div>
+
+          {/* How You Can Help */}
+          <div>
+            <h3 className="text-xl font-semibold mb-4">How You Can Help:</h3>
+            <ul className="space-y-2 list-disc list-inside">
+              <li>Financial sponsorships for our ongoing projects</li>
+              <li>Donating goods, services, or infrastructure</li>
+              <li>Co-hosting awareness campaigns or fundraising events</li>
+              <li>Employee engagement programs and volunteering opportunities</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
       </div>
     );
   }
